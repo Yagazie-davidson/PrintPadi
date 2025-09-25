@@ -5,6 +5,12 @@
   --foreground: #171717;
 }
 
+@theme {
+  --breakpoint-xs: 676px;
+  --breakpoint-2xl: 745px;
+  --breakpoint-3xl: 881px;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,15 +18,116 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Neue Regrade Regular */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Regrade Bold */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Regrade Bold Italic */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Bold Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Neue Regrade ExtraBold */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Regrade ExtraBold Italic */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade ExtraBold Italic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Neue Regrade Light */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Regrade Light Italic */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Light Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Neue Regrade Medium */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Regrade Medium Italic */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Medium Italic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Neue Regrade Semibold */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Regrade Semibold Italic */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade SemiBold Italic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Neue Regrade Regular Italic */
+@font-face {
+  font-family: 'Neue Regrade';
+  src: url('/fonts/neue_regrade/Neue Regrade Regular Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Neue Regrade', Arial, sans-serif;
+  font-weight: 400;
+  /* Regular by default */
 }
