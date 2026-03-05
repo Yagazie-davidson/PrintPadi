@@ -34,7 +34,7 @@ export default function Home() {
 						We’re sorry for the inconvenience. While we work on improving your
 						experience, you can still reach us directly on WhatsApp.
 					</p>
-					<Link href={"https://wa.me/message/6J4E5NXS4LHSL1"} className="">
+					<Link href={"https://wa.me/2348090740009"} className="">
 						<button
 							aria-label="continue on whatsapp"
 							className="flex items-center space-x-3 cursor-pointer rounded-lg bg-black text-white font-medium text-lg xs:text-2xl py-2.5 xs:py-[18px] px-3"
